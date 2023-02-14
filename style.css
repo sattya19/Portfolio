@@ -6,6 +6,11 @@
     color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
+span{
+    color: turquoise;
+   
+
+}
 
 nav {
     display: flex;
@@ -55,15 +60,15 @@ nav ul li a:hover {
 
 }
 
-.header-text h1 span {
-    color: turquoise;
-}
+
 
 .header-text p {
     font-size: 20px;
 }
 
 #about {
+    width: 100%;
+    height: 100%;
     padding: 100px, 0;
     color: #ababab;
 
@@ -114,7 +119,7 @@ nav ul li a:hover {
 .tab-links {
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 800;
     cursor: pointer;
     position: relative;
 }
@@ -132,6 +137,7 @@ nav ul li a:hover {
 
 .tab-links.active-link::after {
     width: 50%;
+    
 
 
 }
@@ -140,12 +146,14 @@ nav ul li a:hover {
     list-style: none;
     margin: 10px 0;
     color: gray;
+    
 }
 
-.tab-contents ul li span {
+.tab-contents ul li span{
 
-    color: turquoise;
+color: turquoise;
 }
+
 
 .tab-contents {
     display: none;
@@ -153,4 +161,60 @@ nav ul li a:hover {
 
 .tab-contents.active-tab {
     display: block;
+    height: 100%;
+   
+}
+.tab-contents.active-tab span {
+    color: turquoise;
+   
+}
+#Projects{
+    padding-inline: 30px;
+    text-decoration: none;
+    background-color: none;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+.project-list{
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+   
+}
+.project-list div{
+    background: #262626;
+    padding : 50px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    transition: background 0.5s, transform 0.5s;
+   
+  
+}
+.project-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #262626;
+   
+  
+}
+.project-list div a{
+    text-decoration: none;
+    color: turquoise;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #262626;
+
+}
+.project-list div :hover{
+    color: turquoise;
+    transform: translate(-10px);
+
 }

@@ -9,8 +9,7 @@ function opentab(idName, linkId) {
     tabcontent.classList.remove("active-tab");
   }
 
-  //   addEventListener.currentTarget.classList.add("active-link");
-  //   document.getElementById(idName).classList.add("active-tab");
+  
 
   var tabContent = document.getElementById(idName);
   tabContent.classList.add("active-tab");
