@@ -220,3 +220,32 @@ color: turquoise;
     transform: translate(-10px);
 
 }
+.Contact{
+    padding: 100px, 0;
+    margin-top: 10%;
+    height: 100%;
+}
+.Contact h1{
+    font-size: 60px;
+    float: left;
+    margin-right: 20%;
+    
+}
+.icons{
+    font-size: 40px;
+}
+.icons ul li{
+    list-style: none;
+   
+    display: inline;
+   
+    padding: 10px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+   
+    
+
+}
+.icons ul li:hover{
+   transform: scale(1.3);
+}
