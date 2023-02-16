@@ -6,6 +6,14 @@
     color: white;
     font-family: 'Josefin Sans', sans-serif;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: center;
+   
+   
+}
 span{
     color: turquoise;
    
