@@ -70,8 +70,8 @@ nav ul li a:hover {
 }
 
 #about {
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vw;
     padding: 100px, 0;
     color: #ababab;
 
@@ -178,7 +178,43 @@ nav ul li a:hover {
 }
 .heading{
     font-size: 40px;
+    margin-left: 3%;
 }
+.projectList{
+    display: flex;
+    gap: 30px;
+}
+.projectFirst{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-image: url('todo list.webp');
+    background-size: cover;
+    border-radius: 100px;
+    transition: all 0.4s;
+}
+.projectFirst:hover{
+    transform: scale(1.2);
+
+}
+.projectSecond{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-image: url('icon_SmallTools_Calculator.png');
+    background-size: cover;
+    border-radius: 100px;
+    transition: all 0.4s;
+}
+.projectSecond:hover{
+    transform: scale(1.2);
+
+}
+
+
+
 .Contact{
     margin-top: 10%;
     margin-left: 2%;
@@ -187,11 +223,7 @@ nav ul li a:hover {
     margin-bottom: 20%;
  
 }
-.projectList{
-    height: 50vh;
-    width: 30vw;
-    background-color: white;
-}
+
 .Contact h1 span{
     font-size: 80px;
     float: left;
