@@ -188,13 +188,45 @@ nav ul li a:hover {
     display: flex;
  
 }
-.projectFirst{
-    height: 40vh;
-    width: 40vh;
+.card{
+    height: 30vh;
+    width: 30vw;
+    background-image: transparent;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+    margin-left: 15%;
     margin-top: 5%;
-    margin-left: 25%;
+    display: flex;
+}
+.card h1{
+background-color: rgb(41, 40, 40) ;
+font-size: 40px;
+margin-right: 1%;
+    margin-top: 20%;
+}
+.calculator{
+    height: 30vh;
+    width: 30vw;
+    background-image: transparent;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+}
+.calculator h1{
+    background-color: rgb(41, 40, 40) ;
+    font-size: 40px;
+    margin-right: 1%;
+        margin-top: 20%;
+    }
+.projectFirst{
+    height: 12vh;
+    width: 12vh;
+    margin-top: 15%;
+    margin-left: 10%;
     background-image: url('todo list.webp');
-    background-size: cover;
+    background-size: contain;
     border-radius: 100px;
     transition: all 0.4s;
 }
@@ -203,12 +235,12 @@ nav ul li a:hover {
 
 }
 .projectSecond{
-    height: 40vh;
-    width: 40vh;
-    margin-top: 5%;
-    margin-left: 5%;
+    height: 12vh;
+    width: 12vh;
+    margin-top: 15%;
+    margin-left: 10%;
     background-image: url('icon_SmallTools_Calculator.png');
-    background-size: cover;
+    background-size: contain;
     border-radius: 100px;
     transition: all 0.4s;
 }
