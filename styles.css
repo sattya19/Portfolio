@@ -173,16 +173,20 @@ nav ul li a:hover {
 #Projects{
     height: 100vh;
     width: 100vw;
+    margin-top: 10%;
     
     
 }
 .heading{
-    font-size: 40px;
+    font-size: 60px;
     margin-left: 3%;
+}
+.heading span{
+    color: turquoise;
 }
 .projectList{
     display: flex;
-    gap: 30px;
+ 
 }
 .projectFirst{
     height: 40vh;
