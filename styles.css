@@ -14,6 +14,10 @@ body{
     align-items: center;
 }
 
+.me{
+    height: 100vh;
+    width: 100vw;
+}
 
 nav {
     display: flex;
@@ -24,12 +28,6 @@ nav {
     padding-right: 10%;
     font-size: 30px;
     box-sizing: border-box; 
-}
-
-.logo {
-    color: turquoise;
-    padding-top: 3%;
-    font-size: 60px;
 }
 
 nav ul li {
@@ -50,11 +48,16 @@ nav ul li a:hover {
     color: turquoise;
     transition: 0.4s;
 }
-
+.logo {
+    color: turquoise;
+    padding-top: 2%;
+    font-size: 60px;
+}
 .header-text {
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 15%;
+    
 }
 .header-text h1 span{
     color: turquoise;
@@ -196,13 +199,21 @@ nav ul li a:hover {
     border-radius: 10px;
     margin-left: 15%;
     margin-top: 5%;
-    /* display: flex; */
+    display: flex;
 }
 .card h1{
     background-color: rgb(41, 40, 40);
     font-size: 40px;
     margin-right: 1%;
-        margin-top: 3%;
+        margin-top: 20%;
+       
+    }
+    .card label{
+        background-color: rgb(41, 40, 40);
+        margin-top: 30%;
+        font-size: 30px;
+      
+
     }
 .calculator{
     height: 30vh;
@@ -219,6 +230,15 @@ nav ul li a:hover {
     font-size: 40px;
     margin-right: 1%;
         margin-top: 20%;
+    }
+    .calculator label{
+        background-color: rgb(41, 40, 40);
+        margin-top: 30%;
+        font-size: 30px;
+       
+      
+      
+
     }
 .projectFirst{
     height: 12vh;
@@ -284,3 +304,5 @@ nav ul li a:hover {
     display: inline-flex;
     justify-content: space-between;
 }
+
+
