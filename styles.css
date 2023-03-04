@@ -17,6 +17,7 @@ body{
 .me{
     height: 100vh;
     width: 100vw;
+  
 }
 
 nav {
@@ -150,7 +151,7 @@ nav ul li a:hover {
     list-style: none;
     margin: 10px 0;
     color: gray;
-    font-size: 25px;
+    font-size: 30px;
     
 }
 
@@ -162,6 +163,7 @@ nav ul li a:hover {
 
 .tab-contents {
     display: none;
+    font-size: 30px;
 }
 
 .tab-contents.active-tab {
@@ -174,7 +176,7 @@ nav ul li a:hover {
    
 }
 #Projects{
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     margin-top: 10%;
     
@@ -304,17 +306,13 @@ nav ul li a:hover {
     display: inline-flex;
     justify-content: space-between;
 }
-
-
-@media only screen and (max-width:500px){
-    nav {
-        width: 100%;
-        position: absolute;
-
-    }
-    nav ul li{
-        width: 100%;
-        position: absolute;
-    }
-    
+.connectForm{
+    height: 60vh;
+    width: 50vw;
+    margin-top: 10%;
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+  display: flex;  
+  background-color: white;
 }
