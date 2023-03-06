@@ -1,23 +1,27 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: black;
-    color: white;
     font-family: 'Josefin Sans', sans-serif;
     
 }
 body{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 80vw; */
     display: content;
     justify-content: center;
     align-items: center;
+    height: 50vh;
+    width: 60vw;
+    background-color: black;
+    color: white;
+  
 }
 
 .me{
     height: 100vh;
-    width: 100vw;
-  
+    width: 80vw;
+    background: black;
+    
 }
 
 nav {
@@ -76,9 +80,11 @@ nav ul li a:hover {
 #about {
     width: 100vh;
     height: 100vw;
-    padding: 100px, 0;
+  
     color: #ababab;
-
+ 
+  
+   
 }
 
 .row {
@@ -90,17 +96,22 @@ nav ul li a:hover {
 .about-col-1 {
     flex-basis: 35%;
 
+
+
 }
 
 .about-col-1 img {
-    margin-left: 10%;
+    margin-left: 30%;
     width: 100%;
     border-radius: 15px;
     margin-right: 10%;
 }
 
 .about-col-2 {
+    
     flex-basis: 60%;
+ 
+
 }
 
 .sub-tittle {
@@ -175,110 +186,15 @@ nav ul li a:hover {
     color: turquoise;
    
 }
-#Projects{
-    height: 60vh;
-    width: 100vw;
-    margin-top: 10%;
-    
-    
-}
-.heading{
-    font-size: 60px;
-    margin-left: 3%;
-}
-.heading span{
-    color: turquoise;
-}
-.projectList{
-    display: flex;
- 
-}
-.card{
-    height: 30vh;
-    width: 30vw;
-    background-image: transparent;
-    background-color: rgb(41, 40, 40);
-    border-radius: 10px;
-    margin-left: 15%;
-    margin-top: 5%;
-    display: flex;
-}
-.card h1{
-    background-color: rgb(41, 40, 40);
-    font-size: 40px;
-    margin-right: 1%;
-        margin-top: 20%;
-       
-    }
-    .card label{
-        background-color: rgb(41, 40, 40);
-        margin-top: 30%;
-        font-size: 30px;
-      
 
-    }
-.calculator{
-    height: 30vh;
-    width: 30vw;
-    background-image: transparent;
-    background-color: rgb(41, 40, 40);
-    border-radius: 10px;
-    margin-left: 5%;
-    margin-top: 5%;
-    display: flex;
-}
-.calculator h1{
-    background-color: rgb(41, 40, 40) ;
-    font-size: 40px;
-    margin-right: 1%;
-        margin-top: 20%;
-    }
-    .calculator label{
-        background-color: rgb(41, 40, 40);
-        margin-top: 30%;
-        font-size: 30px;
-       
-      
-      
-
-    }
-.projectFirst{
-    height: 12vh;
-    width: 12vh;
-    margin-top: 15%;
-    margin-left: 10%;
-    background-image: url('todo list.webp');
-    background-size: contain;
-    border-radius: 100px;
-    transition: all 0.4s;
-}
-.projectFirst:hover{
-    transform: scale(1.2);
-
-}
-
-.projectSecond{
-    height: 12vh;
-    width: 12vh;
-    margin-top: 15%;
-    margin-left: 10%;
-    background-image: url('icon_SmallTools_Calculator.png');
-    background-size: contain;
-    border-radius: 100px;
-    transition: all 0.4s;
-}
-.projectSecond:hover{
-    transform: scale(1.2);
-
-}
 
 
 
 .Contact{
     margin-top: 10%;
     margin-left: 2%;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
     margin-bottom: 20%;
  
 }
@@ -306,13 +222,44 @@ nav ul li a:hover {
     display: inline-flex;
     justify-content: space-between;
 }
-.connectForm{
-    height: 60vh;
+
+.cardContent{
+    height: 40vh;
     width: 50vw;
-    margin-top: 10%;
-    margin-left: 20%;
-    text-align: center;
-    justify-content: center;
-  display: flex;  
-  background-color: white;
+     background: linear-gradient(to right, rgb(64, 199, 228), rgb(69, 141, 227)); 
+    display: flex;
+    margin-left: 60%;
+    margin-top: 20%;
+
+ 
+   
+}
+.Project{
+  
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+ border-right: 2px solid rgb(59, 156, 200);
+ /* margin-left: 5%; */
+ color: rgb(26, 38, 64);
+
+}
+.heading {
+    color: rgb(26, 38, 64);
+margin-top: 25%;
+    
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 0px 30px;
+}
+.header{
+    font-size: 40px;
+    color: turquoise;
+  
+}
+.header span{
+    color: white;
 }
