@@ -1,29 +1,23 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    
+    font-family: 'Josefin Sans', sans-serif; 
 }
 body{
-    /* height: 100vh;
-    width: 80vw; */
+    height: 100vh;
+    width: 80vw;
     display: content;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 60vw;
     background-color: black;
     color: white;
-  
+    box-sizing: border-box;
 }
-
 .me{
     height: 100vh;
-    width: 80vw;
-    background: black;
-    
+    width: 100vw;
+    background-image: url(https://th.bing.com/th/id/R.dd8535e79b3923142f8c0659aac7b2cc?rik=fJgPt5BWORg37w&riu=http%3a%2f%2fimages.freecreatives.com%2fwp-content%2fuploads%2f2016%2f02%2fFree-Space-Blue-Black-Background-Download.jpg&ehk=%2bWNUsQs0sF3ndvDlouliXG1DpMCu7oRD9OzuZ7kMb0g%3d&risl=&pid=ImgRaw&r=0);
 }
-
 nav {
     display: flex;
     align-items: center;
@@ -79,12 +73,9 @@ nav ul li a:hover {
 
 #about {
     width: 100vh;
-    height: 100vw;
+    height: 80vw;
+  color: #ababab;
   
-    color: #ababab;
- 
-  
-   
 }
 
 .row {
@@ -95,9 +86,6 @@ nav ul li a:hover {
 
 .about-col-1 {
     flex-basis: 35%;
-
-
-
 }
 
 .about-col-1 img {
@@ -107,11 +95,8 @@ nav ul li a:hover {
     margin-right: 10%;
 }
 
-.about-col-2 {
-    
+.about-col-2 { 
     flex-basis: 60%;
- 
-
 }
 
 .sub-tittle {
@@ -186,16 +171,46 @@ nav ul li a:hover {
     color: turquoise;
    
 }
-
-
-
-
-.Contact{
+.cardContent{
+    height: 40vh;
+    width: 50vw;
+     background: linear-gradient(to right, rgb(64, 199, 228), rgb(69, 141, 227)); 
+    display: flex;
+    margin-left: 60%;
+    margin-top: 20%;
+}
+.Project{
+    display: flex;
+      flex-direction: column;
+      gap: 15px;
+   border-right: 2px solid rgb(59, 156, 200);
+   margin-left: 5%;
+   color: rgb(26, 38, 64);
+  }
+  .heading {
+      color: rgb(26, 38, 64);
+     margin-top: 25%;
+     letter-spacing: 5px;
+      font-size: 20px;
+      font-weight: 600;
+      box-sizing: border-box;
+      padding: 0px 30px;
+  }
+  .header{
+      font-size: 40px;
+      color: turquoise; 
+  }
+  .header span{
+      color: white;
+  }
+  .Contact{
     margin-top: 10%;
     margin-left: 2%;
     height: auto;
     width: auto;
     margin-bottom: 20%;
+    display: flex;
+    gap: 80px;
  
 }
 
@@ -203,12 +218,11 @@ nav ul li a:hover {
     font-size: 80px;
     float: left;
     margin-right: 20%;
-    color: turquoise;
-    
+    color: turquoise; 
 }
 
 .btn{
-    margin : 20px;
+    margin : 40px;
     cursor: pointer;
     transition: all 0.4s;
     border: none;  
@@ -221,45 +235,6 @@ nav ul li a:hover {
     gap: 40px;
     display: inline-flex;
     justify-content: space-between;
-}
+ background-color: black;
 
-.cardContent{
-    height: 40vh;
-    width: 50vw;
-     background: linear-gradient(to right, rgb(64, 199, 228), rgb(69, 141, 227)); 
-    display: flex;
-    margin-left: 60%;
-    margin-top: 20%;
-
- 
-   
-}
-.Project{
-  
-
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
- border-right: 2px solid rgb(59, 156, 200);
- /* margin-left: 5%; */
- color: rgb(26, 38, 64);
-
-}
-.heading {
-    color: rgb(26, 38, 64);
-margin-top: 25%;
-    
-    letter-spacing: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    box-sizing: border-box;
-    padding: 0px 30px;
-}
-.header{
-    font-size: 40px;
-    color: turquoise;
-  
-}
-.header span{
-    color: white;
 }
